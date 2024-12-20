@@ -1,0 +1,86 @@
+:root {
+    --blue: rgb(20, 118, 255);
+    --black: rgb(11, 14, 44);
+    --grey: rgb(111, 113, 130);
+    --light: rgb(255, 255, 255);
+
+
+    /* font */
+
+    --IR: Inter-Regular;
+    --IB: Inter-Bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-block: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img {
+    width: 153px;
+    height: 41px;
+}
+
+.catalog {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    color: var(--black);
+    font-family: var(--IB);
+    font-size: 14px;
+    line-height: 16px;
+    padding: 18px 25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 234, 243);
+    border-radius: 48px;
+    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+    background: rgb(255, 255, 255);
+}
+
+.btn-two {
+    color: var(--light);
+    font-family: var(--IB);
+    font-size: 14px;
+    line-height: 16px;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 44px;
+    box-shadow: 0px 4px 10px 0px rgba(2, 87, 251, 0.2);
+    background: rgb(20, 118, 255);
+}
+
+.info {
+    padding-block: 280px;
+}
+
+.title {
+    max-width: 479px;
+    color: var(--black);
+    font-family: var(--IB);
+    font-size: 54px;
+    line-height: 65.99px;
+    margin-bottom: 15px;
+}
+
+.text {
+    max-width: 496px;
+    color: var(--grey);
+    font-family: var(--IR);
+    font-size: 12px;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
