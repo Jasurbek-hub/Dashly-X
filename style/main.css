@@ -84,3 +84,27 @@
     line-height: 32px;
     margin-bottom: 43px;
 }
+
+
+.build {
+    margin: 0 auto;
+}
+
+.build-title {
+    max-width: 496px;
+    color: var(--black);
+    font-family: var(--IB);
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.build-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.build-numbers > div {
+    border: 1px solid var(--grey);
+    padding: 35px;
+}
