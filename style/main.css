@@ -16,6 +16,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 .container {
@@ -23,6 +24,9 @@
     width: 100%;
     margin: 0 auto;
     padding-block: 31px;
+}
+
+.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,15 +100,114 @@
     font-family: var(--IB);
     font-size: 32px;
     line-height: 48px;
+    text-align: center;
+    margin-inline: auto;
 }
 
 .build-numbers {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 24px;
+    margin-top: 20px;
 }
 
-.build-numbers > div {
+.num {
     border: 1px solid var(--grey);
     padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--light);
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 0px rgba(25, 93, 194, 0.07);
+    background: var(--light);
+    gap: 28px;
+}
+
+.build-span {
+    color: var(--black);
+    font-family: var(--IB);
+    font-size: 42px;
+    line-height: 54.01px;
+}
+
+.build-img {
+    width: 60px;
+    height: 60px;
+}
+
+.build-text {
+    color: var(--grey);
+    font-family: var(--IR);
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.num-2 {
+    border: 1px solid var(--grey);
+    padding: 24px 35px 32px 111px;
+    border: 1px solid var(--light);
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 0px rgba(25, 93, 194, 0.07);
+    background: var(--light);
+}
+
+.num-3 {
+    border: 1px solid var(--grey);
+    padding: 24px 35px 32px 111px;
+    border: 1px solid var(--light);
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 0px rgba(25, 93, 194, 0.07);
+    background: var(--light);
+}
+
+.screens {
+    max-width: 1220px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid var(--light);
+    border-radius: 36px;
+    box-shadow: 0px 2px 10px 0px rgba(25, 93, 194, 0.07);
+    background: var(--light);
+    padding-block: 63px;
+    margin-block: 30px;
+}
+
+.layouts {
+    color: rgb(20, 118, 255);
+    font-family: var(--IR);
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+
+.screens-title {
+    color: var(--black);
+    font-family: var(--IB);
+    font-size: 32px;
+    line-height: 48px;
+    width: 384px;
+}
+
+.screens-text {
+    color: var(--grey);
+    font-family: var(--IR);
+    font-size: 14px;
+    line-height: 26px;
+    width: 367px;
+}
+
+.screens-btn {
+    color: var(--light);
+    font-family: var(--IB);
+    font-size: 14px;
+    line-height: 16px;
+    padding: 18px 38px;
+    border-radius: 44px;
+    border: none;
+    box-shadow: 0px 4px 10px 0px rgba(2, 87, 251, 0.2);
+    background: rgb(20, 118, 255);
 }
